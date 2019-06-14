@@ -1,0 +1,46 @@
+.section-4 {
+	padding-top: 100px;
+	.slider {
+		padding: 0;
+	}
+	.item {
+		box-shadow: 0px 4px 18px 0px rgba(29, 29, 29, 0.23);
+		background: #ffffff;
+		position: relative;
+		margin-right: 35px;
+		//width: 500px!important;
+		padding: 60px 120px 60px 60px;
+		&:focus {
+			outline: none!important;
+		}
+		.icon {
+			position: absolute;
+			top: 47px;
+			right: 35px;
+		}
+		.item-title {
+			p {
+				font-family: $mongolian-font;
+				font-size: 20px;
+				color: #333333;
+			}
+		}
+		.description, .date {
+			margin-top: 30px;
+			p {
+				font-family: $comforta-font;
+				font-size: 18px;
+				color: #333333;
+			}
+		}
+		.date {
+			margin-top: 50px;
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+	.slick-track {
+		padding: 20px 0;
+	}
+}
